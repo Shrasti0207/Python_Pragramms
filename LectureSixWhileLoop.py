@@ -23,12 +23,14 @@ while(input<=10):
     print(tableNumber, "x", input, "=", input * tableNumber)
     input+=1
 
+#print all the numbers of the list
 list = [1,4,9,16,25,36,49,64,81,100]
 index=0
 while(index <= (len(list) - 1)):
     print(list[index])
     index+=1
 
+#WAP to write a program for search a element, use break keyword in while loop
 tup = (1,4,9,16,25,36,49,64,81,100)
 x = 36
 ind = 0
@@ -38,6 +40,7 @@ while(ind<len(tup)):
         break
     ind+=1
 
+#continue keyword in while loop
 j = 0
 while(j<=10):
     if(j%2==0):

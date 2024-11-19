@@ -16,6 +16,7 @@ information["surname"] = "gupta"
 print(information)
 
 
+#Nested Dictionary
 student={
     "name": "rahul kumar",
     "subject_marks" : {
@@ -40,6 +41,7 @@ print(information.get("name2"))     #no error  -> None
 new_dict = {
     "city": "Noida"
 }
+
 information.update(new_dict)        #update the previous dictionary, If we put same key it overright the value
 print(information)
 
@@ -48,6 +50,7 @@ wordDict={
     "table": ("a piece of dictionary", "list of facts and figures"),        #or we can store in list
     "cat": "a samll animal"
 }
+
 print(wordDict)
 
 # WAP to enter marks of 3 subjects from the user and store them in a dictionarty. Start with am empty dictionary & add one by one.
